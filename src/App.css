@@ -10,7 +10,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  max-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,4 +30,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+.item-container {
+  width: 40%;
+}
+
+.card-container {
+  margin-top: 80px;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid grey;
+  /* margin-bottom: 20px; */
+}
+
+.target {
+  /* width: 53%; */
+  min-height: 5px;
+  border: 1px solid #e4e4e4;
 }
